@@ -1,8 +1,4 @@
-interface ButtonProps {
-  title: string;
-  className?: string;
-}
-
+import { ButtonProps } from "@/interfaces";
 const Button: React.FC<ButtonProps> = ({ title, className }) => {
   return (
     <button className={`text-white px-4 py-2 ${className}`}>
