@@ -12,9 +12,18 @@ const Landing: React.FC = () => {
       </div>
 
       <div className="flex gap-3">
-        <Button title="Small Button" className="bg-blue-600 text-white text-sm px-4 py-2 rounded-sm" />
-        <Button title="Medium Button" className="bg-green-600 text-white text-base px-5 py-2 rounded-md" />
-        <Button title="Large Button" className="bg-red-600 text-white text-lg px-6 py-3 rounded-full" />
+        <Button
+          title="Small Button"
+          styles="bg-blue-600 text-white text-sm px-4 py-2 rounded-sm"
+        />
+        <Button
+          title="Medium Button"
+          styles="bg-green-600 text-white text-base px-5 py-2 rounded-md"
+        />
+        <Button
+          title="Large Button"
+          styles="bg-red-600 text-white text-lg px-6 py-3 rounded-full"
+        />
       </div>
     </div>
   );
